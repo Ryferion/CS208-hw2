@@ -1,10 +1,10 @@
 
 FROM python:latest
 
-ADD ipc-server.py /server/
+ADD ipc-server.py 
 
-WORKDIR /server/
+WORKDIR /
 
 EXPOSE 9002
 
-CMD [ "python3", "/server/ipc-server.py" ]
+CMD [ "python3", "/ipc-server.py" ]
