@@ -1,4 +1,3 @@
-
 FROM python:latest
 
 ADD ipc_server.py /server/
