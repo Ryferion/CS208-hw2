@@ -1,3 +1,5 @@
+Hello! Just some naming details about docker naming.
+
 docker serverside container name: docker_server
 docker bridge name: my_socket_ipc_network
 
