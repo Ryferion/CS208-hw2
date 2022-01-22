@@ -1,7 +1,7 @@
 import socket
 import sys
 
-HOST = '127.0.0.1'
+HOST = '0.0.0.0'
 PORT = 9002
 
 
@@ -10,7 +10,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.sendall(b'Connected!')
     f = open ("mydata.txt", "wb")
     while 1:
-        
         data = ''
         data = s.recv(1024)
         if data == b'': 
