@@ -1,0 +1,7 @@
+docker serverside container name: docker_server
+docker bridge name: my_socket_ipc_network
+
+docker server volume name: server_persistent_volume
+docker client volume name: client_persistent_volume
+
+port used: 9002
