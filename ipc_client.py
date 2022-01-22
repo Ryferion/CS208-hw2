@@ -1,7 +1,8 @@
 import socket
 import sys
 
-HOST = '0.0.0.0'
+# HOST = '0.0.0.0'
+HOST = socket.gethostbyname('ipc_server_dns_name')
 PORT = 9002
 
 
