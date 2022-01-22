@@ -1,8 +1,8 @@
 import socket
 import sys
 
-# HOST = '0.0.0.0'
-HOST = socket.gethostbyname('my_socket_ipc_network')
+HOST = ''
+# HOST = socket.gethostbyname('my_socket_ipc_network')
 PORT = 9002
 
 
