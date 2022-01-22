@@ -1,7 +1,9 @@
 import socket
 import sys
 
-HOST = 'localhost'
+
+
+HOST = 'docker_server'
 # HOST = socket.gethostbyname('my_socket_ipc_network')
 PORT = 9002
 
