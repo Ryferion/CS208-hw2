@@ -1,7 +1,7 @@
 import socket
 import sys
 
-HOST = '0.0.0.0'
+HOST = ''
 PORT = 9002
 
 def send_file(self, name):
