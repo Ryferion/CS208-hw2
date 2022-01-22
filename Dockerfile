@@ -1,7 +1,7 @@
 
 FROM python:latest
 
-ADD ipc-server.py 
+ADD ipc-server.py /
 
 WORKDIR /
 
