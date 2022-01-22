@@ -1,6 +1,6 @@
 FROM python:latest
 
-ADD ipc_server.py /server/
+ADD ipc_server.py mydata.txt /server/
 
 WORKDIR /server/
 
