@@ -11,7 +11,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     f = open ("mydata.txt", "wb")
     
     data = s.recv(1024)
-    if data == b'': break
+    if data == b'': 
+        break
     f.write(data)
     
     # data = f.read(1024)
