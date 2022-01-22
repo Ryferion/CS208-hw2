@@ -9,12 +9,14 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
     s.sendall(b'Connected!')
     f = open ("mydata.txt", "wb")
-    
-    data = s.recv(1024)
-    if data == b'': 
-        break
-    f.write(data)
-    
+    while 1:
+        
+        data = ''
+        data = s.recv(1024)
+        if data == b'': 
+            break
+        f.write(data)
+    f.close()
     # data = f.read(1024)
     #while (data):
     #    s.sendall(b'Hello! Receiving file!')
